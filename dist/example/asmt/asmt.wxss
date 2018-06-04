@@ -1,0 +1,11 @@
+/* example/asmt/asmt.wxss */
+.downloadtext{
+text-align: left;
+align-self: left;
+}
+
+.downloadview{
+height: 40px;
+
+
+}
