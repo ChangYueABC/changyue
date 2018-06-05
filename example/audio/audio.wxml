@@ -1,55 +1,55 @@
 <view class="page" style='background:white'>
   <view class="page__bd">
 
-
-    <view >
+    <view>
       <view class="weui-flex">
         <image class="weui-article__img_home" src="../images/home.png" mode="aspectFit" style="height: 40px" bindtap='home_tap' />
         <image class="weui-article__img_menu" src="../images/menu.png" mode="aspectFit" style="height: 40px" bindtap='menu_tap' />
       </view>
     </view>
 
-
-
     <view class="weui-panel weui-panel_access">
       <!-- <view class="page-title">Old mother hubbard's Audio</view> -->
       <view class="weui-panel__bd">
 
-
         <view class="title text-center" style='font-weight:bold;margin-left:15px'>
-      
           Old mother hubbard's Audio
         </view>
+
         <view class="text-center">
-         
           <audio style='margin-left:35px' id="audio" src="{{audio.src}}" loop="{{true}}" controls="{{true}}" poster="{{audio.poster}}" name="{{audio.name}}" author="{{audio.author}}" binderror="audioError" bindplay="audioPlay" bindeneded="playEnd" bindtimeupdate="timeUpdate"></audio>
         </view>
+        <!--
         <view class="row" style='margin-left:35px'>
           <text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>
           <button class="col" type="primary" size="mini" bindtap="play">播放</button>
           <text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>
           <button class="col" type="primary" size="mini" bindtap="pause">暂停</button>
         </view>
+        -->
 
+        <text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>
 
-      <text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>
-      <view class="title text-center" style='font-weight:bold'>
-          <text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>
-          My Audio
-          
-      </view>
+        <view class="title text-center" style='font-weight:bold'>
+          <text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text> My Audio
+        </view>
 
-      <view style='margin-left:15px;margin-bottom:0px'>URL:</view>
-      <view class="inputView">
-    <!--这个是输入框-->
-    <input class="input"  type="number" placeholder="请输入链接地址url" placeholder-style="color: gray" bindinput="listenerPhoneInput" />
-</view>
-<view>
-    <text class='timenote'style="background-color:#32CD32">{{time}}</text>
-</view>
-   			<view class="weui-btn-area">
-					<button class="weui-btn" type="primary" bindtap="audioreturn">return</button>
-			</view>
+        <view class="flex-wrp" style="flex-direction:row;">
+          <view style='margin:0px 5px 0px 15px'>URL:</view>
+          <view class="inputView">
+            <!--这个是输入框-->
+            <input class="input" type="number" placeholder="请输入链接地址url" placeholder-style="color: gray" bindinput="listenerPhoneInput" />
+          </view>
+        </view>
+
+        <view>
+          <text class='timenote' style="background-color:#32CD32">{{time}}</text>
+        </view>
+
+        <view class="weui-btn-area">
+          <button class="weui-btn" type="primary" bindtap="audioreturn">return</button>
+        </view>
+        
       </view>
     </view>
 

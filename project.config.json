@@ -11,9 +11,9 @@
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "1.9.98",
-	"appid": "wxa63f20cf1eb5a129",
-	"projectname": "weui-dev",
+	"libVersion": "2.0.9",
+	"appid": "wx95372157af57e290",
+	"projectname": "%E7%95%85%E6%82%A6",
 	"isGameTourist": false,
 	"condition": {
 		"search": {
