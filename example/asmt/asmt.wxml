@@ -1,0 +1,42 @@
+<view class="page" style='background:white'>
+    <view class="page__bd">
+
+
+      <view style='background:white' >
+        <view class="weui-flex">
+          <image class="weui-article__img_home" src="../images/home.png" mode="aspectFit" style="height: 40px" bindtap='home_tap' />
+          <image class="weui-article__img_menu" src="../images/menu.png" mode="aspectFit" style="height: 40px" bindtap='menu_tap' />
+        </view>
+     </view>
+
+
+    <view class="page__hd">
+        <view class="page__title">Old mother hubbard's Asgmt</view>
+         <view class=""><image src="../images/download.png" mode="left" style="height: 26px"  />
+         <text class='downloadtext' style='color:green' bindtap='listenerButtonDownLoadFile'>Download</text>
+        </view>
+    </view>
+   
+
+<view class="page__hd">
+
+        <view class="page__title">Upload My Asgmt</view>
+        <view class="">
+                <button class="weui-btn mini-btn" type="primary" size="mini"  bindtap="upload" margin-left='5px'>上传文件</button><text style='margin-left:10px '>no file selected</text>
+        </view>
+
+</view>
+
+
+
+  <view class="weui-btn-area">
+								<button class="weui-btn" type="primary" bindtap="summittap">summit</button>
+						</view>
+						
+						<view class="weui-btn-area">
+								<button class="weui-btn" type="primary" bindtap="asmtreturn">return</button>
+						</view>
+
+
+  </view>
+</view>
