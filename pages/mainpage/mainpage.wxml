@@ -11,8 +11,8 @@
 
 <view class="weui-cells__title">WELCOME DORA!</view>
         <view class="weui-cells weui-cells_after-title">
-            <view class="weui-cell" >You points:34</view>
-            <view class="weui-cell">You have already read 5 books.</view>
+            <view class="weui-cell" >你的积分：34</view>
+            <view class="weui-cell">恭喜你，一共阅读了5本书！</view>
         </view>
 
 

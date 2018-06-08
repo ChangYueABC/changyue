@@ -18,8 +18,25 @@ Page({
     //     });
     // }, 3000);
     wx.navigateTo({
-      url: "/example/mainpage/mainpage"
+      url: "/pages/mainpage/mainpage"
     })
+    // wx.request({
+    //   url: 'http://localhost:8080/changyues/LoginServlet',
+    //   data:{
+    //     id:'00001',
+    //     name:'张三'
+    //   },
+    //   method:'GET',
+    //   header:{
+    //     'content-type':'application/json'
+    //   },
+    //   success:function(res){
+    //     console.log(res.data);
+    //   },
+    //   fail:function(res){
+    //     console.log("...fail...");
+    //   }
+    // })
 
 
   },

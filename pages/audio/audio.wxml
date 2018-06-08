@@ -49,7 +49,7 @@
         <view class="weui-btn-area">
           <button class="weui-btn" type="primary" bindtap="audioreturn">return</button>
         </view>
-        
+
       </view>
     </view>
 
