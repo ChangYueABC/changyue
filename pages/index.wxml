@@ -4,15 +4,13 @@
         <view class="page__desc">表单输入</view>
     </view> -->
 
-
-
-  <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">    
-      <block wx:for="{{movies}}" wx:for-index="index">    
-        <swiper-item>    
-          <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>    
-        </swiper-item>    
-      </block>    
-    </swiper>    
+  <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">
+    <block wx:for="{{movies}}" wx:for-index="index">
+      <swiper-item>
+        <image src="{{item.url}}" class="slide-image" mode="aspectFill" />
+      </swiper-item>
+    </block>
+  </swiper>
 
   <view class="page__bd">
     <view class="weui-toptips weui-toptips_warn" wx:if="{{showTopTips}}">错误提示</view>
@@ -194,7 +192,7 @@
             <icon class="weui-agree__checkbox-icon-check" type="success_no_circle" size="9" wx:if="{{isAgree}}"></icon>
           </view>
           阅读并同意
-          <navigator url="" class="weui-agree__link">《EnjioyReading畅悦用户协议》</navigator>
+          <navigator url="" class="weui-agree__link">《畅悦用户协议》</navigator>
         </view>
       </label>
     </checkbox-group>

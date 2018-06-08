@@ -1,7 +1,5 @@
 <view class="page">
   <view class="page__bd">
-
-
     <view style='background:white'>
       <view class="weui-flex">
         <!-- <view class="page__title" >畅悦EnjoyReading</view> -->
@@ -9,7 +7,7 @@
         <image class="weui-article__img_menu" src="../images/menu.png" mode="aspectFit" style="height: 40px" bindtap='menu_tap' />
       </view>
     </view>
-    
+
     <view class="weui-cells weui-cells_after-title">
       <view class="weui-cell">
         <view class="weui-cell__bd">
@@ -18,7 +16,6 @@
       </view>
     </view>
 
-
     <view class="weui-tab">
       <view class="weui-navbar">
         <block wx:for="{{tabs}}" wx:key="*this">
@@ -26,48 +23,29 @@
             <view class="weui-navbar__title">{{item}}</view>
           </view>
         </block>
+
         <view class="weui-navbar__slider" style="left: {{sliderLeft}}px; transform: translateX({{sliderOffset}}px); -webkit-transform: translateX({{sliderOffset}}px);"></view>
       </view>
       <view class="weui-tab__panel">
         <view class="weui-tab__content" hidden="{{activeIndex != 0}}">
-
-
           <view class="weui-cell" style='background:white'>
             <view class="weui-cell__hd" style="position: relative;margin-right: 10px;">
               <image src="../images/pic_160.png" style="width: 50px; height: 70px; display: block" />
             </view>
             <view class="weui-cell__bd">
-              <view>old mother hubbard</view>
-              <view style="font-size: 13px;color: #888888;">period:18-06 to 18-06-05</view>
+              <view>小树的朋友</view>
+              <view style="font-size: 13px;color: #888888;">开班时间:18-06 to 18-06-05</view>
               <view style="font-size: 13px;color: #888888;">
-                <text style='color:green' bindtap='quiztap'>Quiz</text>
+                <text style='color:green' bindtap='quiztap'>测验</text>
                 <text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>
-                <text style='color:green' bindtap='asmttap'>Asmt</text>
+                <text style='color:green' bindtap='asmttap'>任务</text>
                 <text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>
-                <text style='color:green' bindtap='audiotap'>Audio</text>
+                <text style='color:green' bindtap='audiotap'>跟读</text>
               </view>
             </view>
           </view>
-
-
-
-
-
-
-
-
-
-
-
         </view>
         <view class="weui-tab__content" hidden="{{activeIndex != 1}}">
-
-
-
-
-
-
-
           <view class="weui-cell" style='background:white'>
             <view class="weui-cell__hd" style="position: relative;margin-right: 10px;">
               <image src="../images/pic_160.png" style="width: 50px; height: 70px; display: block" />
@@ -76,7 +54,6 @@
               <view>old mother hubbard</view>
               <view style="font-size: 13px;color: #888888;">period:18-06-01 to 18-06-05</view>
               <view style="font-size: 13px;color: #888888;">
-
                 <text style='color:green' bindtap='asmttap_his'>Asmt</text>
                 <text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>
                 <text style='color:green' bindtap='audiotap_his'>Audio</text>
@@ -86,27 +63,11 @@
               <view style="font-size: 13px;color: #888888;">
                 <text decode="{{true}}" space="{{true}}">Quiz time:2018-05-26 15:07:56&nbsp;&nbsp;</text>
               </view>
-
             </view>
           </view>
-
-
-
-
-
-
-
-
-
         </view>
         <!-- <view class="weui-tab__content" hidden="{{activeIndex != 2}}">选项三的内容</view> -->
       </view>
     </view>
-
-
-
-
-
-
   </view>
 </view>

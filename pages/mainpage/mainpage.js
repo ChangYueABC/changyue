@@ -11,12 +11,12 @@ Page({
     //     });
     // }, 3000);
     wx.navigateTo({
-      url: "../article/article"
+      url: "../mainpage/mainpage"
     })
   },
   menu_tap: function () {
-        wx.navigateTo({
-      url: "../article/article"
+    wx.navigateTo({
+      url: "../mainpage/mainpage"
     })
   },
 

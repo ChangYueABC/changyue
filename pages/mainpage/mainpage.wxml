@@ -1,98 +1,80 @@
 <view class="page">
-<view class="page__bd page__bd_spacing">
-  <view >
-        <view class="weui-flex">
-            <!-- <view class="page__title" >畅悦EnjoyReading</view> -->
-         <image class="weui-article__img_home" src="../images/home.png" mode="aspectFit" style="height: 40px" bindtap='home_tap' />
+  <view class="page__bd page__bd_spacing">
+    <view>
+      <view class="weui-flex">
+        <!-- <view class="page__title" >畅悦EnjoyReading</view> -->
+        <image class="weui-article__img_home" src="../images/home.png" mode="aspectFit" style="height: 40px" bindtap='home_tap' />
         <image class="weui-article__img_menu" src="../images/menu.png" mode="aspectFit" style="height: 40px" bindtap='menu_tap' />
-        </view>
+      </view>
+    </view>
+
+    <view class="weui-cells__title">你好，DORA</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell">你的积分：34</view>
+      <view class="weui-cell">恭喜你，一共阅读了5本书！</view>
+    </view>
+
+    <view class="page__desc">
+      重要通知： 家长您好，我们即将开始阅读初级班的第一套图书馆level 2 下册，一共16本，请家长提前准备好书本。这套包含在第一套图书馆的50册中，之前已购买过全套书本的家长请忽略本条通知。 您所在的班级为：LTR初级15班 开始日期为：2018-06-05 我们仅提供淘宝或微店的参考购买链接，供家长们选择，大家也可自行选择更合适的卖家。 参考链接：选购下册16本即可 【我剁手都要买的宝贝（英文绘本 我的第一套图书馆 早教启蒙睡前故事书幼儿童英语绘本），快来和我一起瓜分红I包】http://m.tb.cn/h.WCfbPeX
+      点击链接，再选择浏览器打开；或复制这条信息￥480q0H7aqqs￥后打开手淘 (18-05-21)
+    </view>
+
+    <button class="weui-btn" type="primary">我的成就</button>
+    <button class="weui-btn" type="primary">我的班级</button>
   </view>
 
-
-<view class="weui-cells__title">WELCOME DORA!</view>
-        <view class="weui-cells weui-cells_after-title">
-            <view class="weui-cell" >你的积分：34</view>
-            <view class="weui-cell">恭喜你，一共阅读了5本书！</view>
+  <view class="page__bd ">
+    <view class="weui-form-preview" style='color:white'>
+      <view class="weui-form-preview__hd">
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">拼音1班</view>
+          <view class="weui-form-preview__value_in-hd"></view>
         </view>
-
-
-
- 
-        <view class="page__desc">
-  
-重要通知：
-家长您好，我们即将开始阅读初级班的第一套图书馆level 2 下册，一共16本，请家长提前准备好书本。这套包含在第一套图书馆的50册中，之前已购买过全套书本的家长请忽略本条通知。
-
-您所在的班级为：LTR初级15班
-开始日期为：2018-06-05 
-
-我们仅提供淘宝或微店的参考购买链接，供家长们选择，大家也可自行选择更合适的卖家。
-
-参考链接：选购下册16本即可
-
-【我剁手都要买的宝贝（英文绘本 我的第一套图书馆 早教启蒙睡前故事书幼儿童英语绘本），快来和我一起瓜分红I包】http://m.tb.cn/h.WCfbPeX 点击链接，再选择浏览器打开；或复制这条信息￥480q0H7aqqs￥后打开手淘
-(18-05-21)
-     </view>
-
-
-
-<button class="weui-btn" type="primary">PRISE HOUSE</button>
-<button class="weui-btn" type="primary">MYCLASS</button>
-</view>
-
-<view class="page__bd ">
-        <view class="weui-form-preview" style='color:white'>
-            <view class="weui-form-preview__hd">
-                <view class="weui-form-preview__item">
-                    <view class="weui-form-preview__label">拼音1班</view>
-                    <view class="weui-form-preview__value_in-hd"></view>
-                </view>
-            </view>
-            <view class="weui-form-preview__bd">
-                <view class="weui-form-preview__item">
-                    <view class="weui-form-preview__label">付费学时</view>
-                    <view class="weui-form-preview__value">18-3-5 to 18-5-5</view>
-                </view>
-                <view class="weui-form-preview__item">
-                    <view class="weui-form-preview__label">当前套系</view>
-                    <view class="weui-form-preview__value">小树的朋友</view>
-                </view>
-                <view class="weui-form-preview__item">
-                    <view class="weui-form-preview__label">下一套书名</view>
-                    <view class="weui-form-preview__value">小猫的朋友</view>
-                </view>
-            </view>
-            <view class="weui-form-preview__ft">
-                <navigator url="../navbar/navbar" class="weui-form-preview__btn weui-form-preview__btn_primary" hover-class="weui-form-preview__btn_active">Enter</navigator>
-            </view>
+      </view>
+      <view class="weui-form-preview__bd">
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">付费学时</view>
+          <view class="weui-form-preview__value">18-3-5 to 18-5-5</view>
         </view>
-<text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>
-        <view class="weui-form-preview" style='color:white'>
-            <view class="weui-form-preview__hd">
-                <view class="weui-form-preview__item">
-                    <view class="weui-form-preview__label">拼音1班</view>
-                    <view class="weui-form-preview__value_in-hd"></view>
-                </view>
-            </view>
-            <view class="weui-form-preview__bd">
-                <view class="weui-form-preview__item">
-                    <view class="weui-form-preview__label">付费学时</view>
-                    <view class="weui-form-preview__value">18-3-5 to 18-5-5</view>
-                </view>
-                <view class="weui-form-preview__item">
-                    <view class="weui-form-preview__label">当前套系</view>
-                    <view class="weui-form-preview__value">小树的朋友</view>
-                </view>
-                <view class="weui-form-preview__item">
-                    <view class="weui-form-preview__label">下一套书名</view>
-                    <view class="weui-form-preview__value">小猫的朋友</view>
-                </view>
-            </view>
-            <view class="weui-form-preview__ft">
-                <navigator url="../navbar/navbar" class="weui-form-preview__btn weui-form-preview__btn_primary" hover-class="weui-form-preview__btn_active">Enter</navigator>
-            </view>
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">当前套系</view>
+          <view class="weui-form-preview__value">小树的朋友</view>
         </view>
-    
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">下一套书名</view>
+          <view class="weui-form-preview__value">小猫的朋友</view>
+        </view>
+      </view>
+      <view class="weui-form-preview__ft">
+        <navigator url="../class/class" class="weui-form-preview__btn weui-form-preview__btn_primary" hover-class="weui-form-preview__btn_active">进入班级</navigator>
+      </view>
+    </view>
+    <text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>
+    <view class="weui-form-preview" style='color:white'>
+      <view class="weui-form-preview__hd">
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">拼音1班</view>
+          <view class="weui-form-preview__value_in-hd"></view>
+        </view>
+      </view>
+      <view class="weui-form-preview__bd">
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">付费学时</view>
+          <view class="weui-form-preview__value">18-3-5 to 18-5-5</view>
+        </view>
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">当前套系</view>
+          <view class="weui-form-preview__value">小树的朋友</view>
+        </view>
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">下一套书名</view>
+          <view class="weui-form-preview__value">小猫的朋友</view>
+        </view>
+      </view>
+      <view class="weui-form-preview__ft">
+        <navigator url="../class/class" class="weui-form-preview__btn weui-form-preview__btn_primary" hover-class="weui-form-preview__btn_active">进入班级</navigator>
+      </view>
+    </view>
 
-</view>
+  </view>
 </view>
